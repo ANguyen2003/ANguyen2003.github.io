@@ -1,0 +1,61 @@
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: smaller; /*This is a comment*/
+    background-image: url("soft_pastel_backgroud.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: rgb(239, 191, 234);
+}
+h1,h3{
+    font-family: 'Anton', sans-serif;
+}
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: skyblue;
+}
+#nav li {
+    float: left;
+}
+#nav li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding:14px 16px;
+}
+
+#nav li a:hover{
+    background-color:lightgreen;
+}
+#content{
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    margin-top: 20px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgba(255,255,255,.25);
+}
+
+table{
+    margin: auto;
+}
+#content ul, #content ol{
+    width:  30%;
+    margin: auto;
+}
+#songs, #hobbies, #education, #MA, #MA2, #AS{
+   text-align: left;
+}
+#hometitle {
+    font-size: 1000%;
+    text-align: center;
+    font-family: Playball, display;
+}
+/*Use w3schools to find out how to make a shadow on you links.*/
